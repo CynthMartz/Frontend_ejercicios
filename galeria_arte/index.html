@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery</title>
+</head>
+<body>
+    
+    <header>
+        <div>
+            <h1>Art Gallery Psychedelic</h1>
+        </div>
+        <nav>
+            <ul>
+                <li>Obras</li>
+                <li> Exposiciones</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <figure>
+            <video controls width="600" height="400">
+                <source src="assets/arte.mp4" type="video/mp4">
+                Tu navegador no soporta la etiqueta video.
+            </video>
+            <figcaption>Este es un video de la galería</figcaption>
+        </figure>
+
+        <figure>
+                <picture>
+                    <source media="(min-width: 768px)" srcset="assets/foto2.jpeg">
+                    <source media="(min-width: 576px)" srcset="assets/foto3.jpeg">
+                    <img src="assets/foto1.jpeg" alt="foto byn">
+                </picture>
+                <figcaption>Esta es una imagen de las obras</figcaption>
+        </figure>
+    
+        <figure>
+            <p>La galería de arte psicodélico es un espacio donde se exhiben obras de arte que se caracterizan por la utilización de colores intensos, patrones geométricos y formas abstractas, los cuales evocan experiencias psicodélicas y estados alterados de la mente. Estas obras se ejecutan en una amplia variedad de medios, como el óleo, el acrílico, la acuarela, la técnica mixta, la escultura y la instalación.</p>
+            <p>Las exposiciones en la galería de arte psicodélico suelen ser muy atractivas y estimulantes, ya que las obras comparten el común denominador de la experimentación visual y táctil, lo que permite a los visitantes adentrarse en un ambiente inmersivo y emocionante. Además, estas obras no sólo exploran temas relacionados con la psicodelia y la espiritualidad, sino que también abordan otros temas como la naturaleza, la tecnología, la política y la cultura popular.</p>
+            <audio controls>
+                <source src="assets/slowmotion.mp4" type="audio/mp4">
+                <source src="assets/homero.mp3" type="audio/mp3">
+                Tu navegador no soporta la etiqueta audio.
+            </audio>
+            <figcaption>Este es un audio de ambientación</figcaption>
+        </figure>
+
+    </main>
+    <footer>
+        <div>
+            <div>
+                <h3>Galería de Arte</h3>
+                <p>Dirección: Calle principal #123, Ciudad</p>
+                <p>Teléfono: +56 9 1234 5698</p>
+                <p>Correo electrónico: contacto@artgallery.com</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Obras</a></li>
+                    <li><a href="#">Exposiciones</a></li>
+                    <li><a href="#">Artistas</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="social-media">
+            <a href="#"><i class=" fa-facebook-f"></i></a>
+            <a href="#"><i class=" fa-twitter"></i></a>
+            <a href="#"><i class=" fa-instagram"></i></a>
+        </div>
+        <p class="copy">&copy; Galería de Arte 2023. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
