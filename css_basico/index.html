@@ -4,31 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Rubik&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Patchwork</title>
 </head>
 <body>
     <!--Menú-->
-    <header>
-        <div>
-            <img src="assets/logotipo.png" alt="logotipo">
-            <h1>Pachtwork</h1>
-        </div>
-        
-        <nav>
-            <ul>
-                <li>Remeras</li>
-                <li>Pantalones</li>
-                <li>Accesorios</li>
-                <li>FAQ</li>
-                <li>Contacto</li>
-            </ul>
-        </nav>
+    <header >
+        <nav class="container" >
+                <img class="logotipo" src="assets/logotipo.png" alt="logotipo">
+                <h1 class="logotipo_letra">Pachtwork</h1>
+                <ul class="menu">
+                    <li> <a class="menu-item" href="#">Remeras</a></li>
+                    <li> <a class="menu-item" href="#">Pantalones</a> </li>
+                    <li> <a class="menu-item" href="#">Accesorios</a></li>
+                    <li> <a class="menu-item" href="#">FAQ</a></li>
+                    <li> <a class="menu-item" href="#">Contacto</a></li>
+                </ul>
+            </nav>
     </header>
     
     <main>
-        <section>
-            <h2>¡Bienvenidos a Patchwork!</h2>
+        <section class="container">
+            <h1 class="title">¡Bienvenidos a Patchwork!</h1>
             <p>
                 Somos una tienda especializada en la venta de prendas de vestir que destacan por su colorido y originalidad. Nos gusta pensar que nuestras prendas no solo visten, sino que también alegran el día a día de quien las luce.
             </p>
@@ -40,48 +40,49 @@
             </p> 
         </section>
 
-        <section>
+        <section class="container">
             <aside>
-                <ul>
-                    <li>Remeras</li>
-                    <li>Pantalones</li>
-                    <li>Accesorios</li>
-                    <li>Ofertas</li>
+                <ul class="items">
+                    <li class="items-menu"><a class="items-color" href="#">Remeras</a> </li>
+                    <li class="items-menu"><a class="items-color" href="#">Pantalones</a></li>
+                    <li class="items-menu"><a class="items-color" href="#">Accesorios</a></li>
+                    <li class="items-menu"><a class="items-color" href="#">Ofertas</a></li>
                 </ul>
             </aside>
-                <div>
-                    <div>
-                        <img src="assets/remera1.jpeg" alt="remera">
-                        <h3>Remera </h3>
-                        <h3>Usd 25</h3>
-                    </div>
-                    <div>
-                        <img src="assets/pantalon1.png" alt="pantalon">
-                        <h3>Pantalón </h3>
-                        <h3>Usd 45</h3>
-                    </div>
+
+                <div class="article-container">
+                    <article class="card">
+                        <img class="image" src="assets/remera1.jpeg" alt="remera">
+                        <h3 class="title-image">Remera </h3>
+                        <h3 class="title-image">Usd 25</h3>
+                    </article>
+                    <article class="card">
+                        <img class="image" src="assets/pantalon1.png" alt="pantalon">
+                        <h3 class="title-image">Pantalón </h3>
+                        <h3 class="title-image">Usd 45</h3>
+                    </article>
                 </div>
                 <div>
-                    <div>
-                        <img src="assets/remera2.jpg" alt="remera">
-                        <h3>Remera </h3>
-                        <h3>Usd 25</h3>
-                    </div>
+                    <article class="card">
+                        <img class="image" src="assets/remera2.jpg" alt="remera">
+                        <h3 class="title-image">Remera </h3>
+                        <h3 class="title-image">Usd 25</h3>
+                    </article>
                 </div>
                 <div>
-                    <div>
-                        <img src="assets/pantalon2.jpeg" alt="pantalon">
-                        <h3>Pantalón </h3>
-                        <h3>Usd 45</h3>
-                    </div>   
+                    <article class="card">
+                        <img class="image" src="assets/pantalon2.jpeg" alt="pantalon">
+                        <h3 class="title-image">Pantalón </h3>
+                        <h3 class="title-image">Usd 45</h3>
+                    </article>   
                 </div>
             </div>
         </section>
         
     </main>
     
-        <footer>
-            <div>
+        <footer >
+            <div class="container">
                 <div>
                     <h3>Patchwork</h3>
                     <p>Dirección: Calle principal #123, Ciudad</p>
