@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Rubik&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/bc700076f9.js" crossorigin="anonymous"></script>
     <title>Patchwork</title>
 </head>
 <body>
@@ -41,7 +42,7 @@
         </section>
 
         <section class="container">
-            <aside>
+            <aside >
                 <ul class="items">
                     <li class="items-menu"><a class="items-color" href="#">Remeras</a> </li>
                     <li class="items-menu"><a class="items-color" href="#">Pantalones</a></li>
@@ -49,47 +50,64 @@
                     <li class="items-menu"><a class="items-color" href="#">Ofertas</a></li>
                 </ul>
             </aside>
-
+            <div class="site-container">
                 <div class="article-container">
                     <article class="card">
-                        <img class="image" src="assets/remera1.jpeg" alt="remera">
-                        <h3 class="title-image">Remera </h3>
-                        <h3 class="title-image">Usd 25</h3>
+                        <figure class="image">
+                            <img  src="assets/pantalon2.jpeg" alt="pantalon">
+                        </figure>
+                        <div class="content">
+                            <h3 class="card-title">Pantalón </h3>
+                            <p class="card-price">Usd 39</p>
+                        </div>
                     </article>
+
                     <article class="card">
-                        <img class="image" src="assets/pantalon1.png" alt="pantalon">
-                        <h3 class="title-image">Pantalón </h3>
-                        <h3 class="title-image">Usd 45</h3>
+                        <figure class="image">
+                            <img  src="assets/remera2.jpg" alt="remera">
+                        </figure>
+                        <div class="content">
+                            <h3 class="card-title">Remera </h3>
+                            <p class="card-price">Usd 25</p>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <figure class="image">
+                            <img src="assets/pantalon1.png" alt="pantalon">
+                        </figure>
+                        <div class="content">
+                            <h3 class="card-title">Pantalón </h3>
+                            <p class="card-price">Usd 45</p>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <figure class="image">
+                            <img src="assets/pantalon2.jpeg" alt="pantalon">
+                        </figure>
+                        <div class="content">
+                            <h3 class="card-title">Pantalón </h3>
+                            <p class="card-price">Usd 45</p>
+                        </div>
                     </article>
                 </div>
-                <div>
-                    <article class="card">
-                        <img class="image" src="assets/remera2.jpg" alt="remera">
-                        <h3 class="title-image">Remera </h3>
-                        <h3 class="title-image">Usd 25</h3>
-                    </article>
-                </div>
-                <div>
-                    <article class="card">
-                        <img class="image" src="assets/pantalon2.jpeg" alt="pantalon">
-                        <h3 class="title-image">Pantalón </h3>
-                        <h3 class="title-image">Usd 45</h3>
-                    </article>   
-                </div>
-            </div>
+            </div>    
         </section>
         
     </main>
     
-        <footer >
-            <div class="container">
+        <footer class="pie_pagina">
+            <div class="container pie_pagina">
+                <div class="box">
+                    <h1>Patchwork</h1>
+                </div>
                 <div>
-                    <h3>Patchwork</h3>
                     <p>Dirección: Calle principal #123, Ciudad</p>
                     <p>Teléfono: +56 9 1234 5698</p>
                     <p>Correo electrónico: contacto@patchwork.com</p>
                 </div>
-                <nav>
+                <nav class="box">
                     <ul>
                         <li><a href="#">Inicio</a></li>
                         <li><a href="#">Remeras</a></li>
@@ -98,13 +116,21 @@
                         <li><a href="#">Contacto</a></li>
                     </ul>
                 </nav>
-            </div>
-            <div class="social-media">
-                <a href="#"><i class=" fa-facebook-f"></i></a>
-                <a href="#"><i class=" fa-twitter"></i></a>
-                <a href="#"><i class=" fa-instagram"></i></a>
-            </div>
-            <p class="copy">&copy; Patchwork 2023. Todos los derechos reservados.</p>
+    
+                <div class="box">
+                    <h2>SIGUENOS</h2>
+                    <div class="red-social">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                    </div>
+                </div>
+            </div>  
+            <div class="container">
+                <small class="copy">&copy; Patchwork 2023. Todos los derechos reservados.</small>
+            </div>  
+            
         </footer>
     </body>
 </html>

@@ -94,36 +94,100 @@ main{
 /*Navegación lateral*/
 aside{
     float: left;
-    height: 800px;
+    height: auto;
     width: 300px;
-    background-color: var(--main-color);
-    border: solid 5px black;
+    background-color: green;
+    border-radius:20px ;
+    margin-right:20px ;
 }
 .items-color{
     color: black;
 }
 .items{
-    height: 760px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content:space-around;
-    text-align: center;
+    text-align: left;
     font-family:'Poppins' ;
     letter-spacing: 1px;
     font-size: 24px;
-    padding: 20px 0 20px 0;
-    
+    padding: 20px 30px;
+
 }
 /*Cards*/
+.side-container{
+    margin: 20px auto;
+}
 
+.article-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
 
+.image{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
 
+.image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
 
+.card{
+    background-color:var(--second-color);
+    border-radius: 20px;
 
+}
+.card:hover {
+    box-shadow: 0 4px 20px 0 rgba(34, 68, 123, 0.2);
+    cursor: pointer; 
+}
 
+.content{
+    padding: 2rem;
+}
+
+.content .card-title{
+    color: #ce1f1d;
+    text-align: center;
+}
+
+.content .card-price{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #ce1f1d;
+    text-align: center;
+}
 
 
 /*Footer*/
-footer{
+.pie_pagina{
     background-color: var(--main-color1);
+}
+
+.pie_pagina .container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+    text-align: center;
+    align-items: center;
+}
+.pie_pagina .container .box h2{
+    color: var(--second-color);
+}
+
+
+
+
+
+
+.copy{
+    text-align: center;
 }
