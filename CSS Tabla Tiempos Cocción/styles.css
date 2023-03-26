@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body{
+    font-family: 'Montserrat';
+}
+h1{
+    color: #224291;
+}
+h2{
+    color: #224291;
+    font-weight: 400;
+    padding:20px 0; 
+}
+b{
+    color:#224291 ;
+}
+ol{
+    padding-left: 20px;
+}
+ol li::marker{
+    color: #224291;
+}
+li{
+    padding: 2px;
+}
+.container{
+    margin: 0 auto;
+    max-width: 700px;
+}
+.border-image{
+    border: 3px solid #ccd4e4;
+    border-radius: 5px;
+}
+.image{
+    padding: 5px;
+}
+.image img {
+    width: 100%;
+    height: auto;
+}
+.text{
+    padding: 10px 0 10px 0;
+    font-size: 16px;
+
+}
+.subtitle{
+    padding-top: 40px;
+}
+/*Tabla*/
+table{
+    border-spacing:0;
+    width: 100%;
+    text-indent: 0;
+}
+
+thead{
+    color:#fff;
+    background-color: #224baf;
+    padding: 20px 10px;
+    text-align: center;
+    height: 90px;
+
+}
+th{
+    font-weight: 400;
+    padding: 10px 30px;
+}
+.first-column{
+    color: #224baf;
+    background-color: #c6d0e5;
+    border-top: 1px solid #d9dfeb ;
+    padding: 10px;
+    font-size: 12px;
+    text-align: left;
+    width: 80px;
+}
+
+
+td{
+    font-size: 12px;
+    padding: 10px 6px;
+    width: 80px;
+    border: 1px solid #d9dfeb;
+    text-align: center;
+}
+
+.note{
+    padding: 20px 10px 20px 0;
+}
